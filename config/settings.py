@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'rest_framework',
     'api',
 ]
 
@@ -79,7 +80,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'urls_short',
+        'NAME': 'short_urls',
         'USER': 'admin',
         'PASSWORD': 'qwerty',
         'HOST': 'localhost',
