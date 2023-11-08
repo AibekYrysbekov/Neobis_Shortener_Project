@@ -6,36 +6,36 @@ This project is a simple URL shortening service implemented using Django and Dja
 
 1. Clone the repository:
 
-    git clone https://github.com/AibekYrysbekov/Neobis_Shortener_Project.git
+         git clone https://github.com/AibekYrysbekov/Neobis_Shortener_Project.git
 
 
 2. Change to the project directory:
 
-   cd Neobis_Shortener_Project
+         cd Neobis_Shortener_Project
 
 
 3. Create and activate a virtual environment (recommended):
    
-   python -m venv venv
+         python -m venv venv
 
-   source venv/bin/activate  # For Linux/Mac
+         source venv/bin/activate  # For Linux/Mac
 
-   venv\Scripts\activate  # For Windows
+         venv\Scripts\activate  # For Windows
 
 
 4. Install dependencies from the requirements.txt file:
 
-   pip install -r requirements.txt
+         pip install -r requirements.txt
 
 
 5. Apply migrations to the database:
 
-   python manage.py migrate
+       python manage.py migrate
 
 
 6. Start the server:
 
-   python manage.py runserver
+       python manage.py runserver
 
 After these steps, your server will be accessible at http://localhost:8000/.
 
